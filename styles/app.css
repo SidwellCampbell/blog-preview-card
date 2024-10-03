@@ -10,12 +10,70 @@ body {
   line-height: 150%;
   letter-spacing: 0;
   font-family: Figtree, sans-serif;
+  width: 100vw;
+  background-color: #f4d04e;
 }
 
 .card {
-  width: 384px;
+  width: 350px;
+  margin: 200px auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 8px 8px #111111;
 }
 
 .container {
   width: 87.5%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container > img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #f4d04e;
+  color: #111111;
+  padding: 1px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.published {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.card-title:hover {
+  color: #f4d04e;
+  cursor: pointer;
+}
+
+.card-description {
+  color: #6b6b6b;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.author {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  gap: 10px;
+}
+
+.author img {
+  width: 40px;
 }
