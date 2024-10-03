@@ -1,0 +1,21 @@
+/* Colors: ##F4D04E , #111111, ##6B6B6B , #FFF # 
+    Font-sizes: 14/16/24
+    spacing: 4/8/12/16
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  line-height: 150%;
+  letter-spacing: 0;
+  font-family: Figtree, sans-serif;
+}
+
+.card {
+  width: 384px;
+}
+
+.container {
+  width: 87.5%;
+}
